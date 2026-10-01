@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주식회사 거인의어깨</title>
+<meta name="description" content="주식회사 거인의어깨 전자공고">
+<style>
+  :root{ --ink:#030149; --line:#dfe3ee; --muted:#6b7280; --bg:#ffffff; --soft:#f6f8fc; }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:#1b1b2c;
+       font-family:"Pretendard","Apple SD Gothic Neo","맑은 고딕","Malgun Gothic",system-ui,sans-serif;
+       font-size:16px;line-height:1.7;-webkit-text-size-adjust:100%;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px;}
+  header{border-bottom:3px solid var(--ink);}
+  .head-in{padding:36px 0 22px;}
+  h1{margin:0;font-size:25px;letter-spacing:-.5px;color:var(--ink);font-weight:800;}
+  .sub{margin-top:6px;color:var(--muted);font-size:14px;}
+  nav{border-bottom:1px solid var(--line);background:var(--soft);}
+  nav ul{list-style:none;margin:0;padding:0;display:flex;}
+  nav a{display:block;padding:14px 20px;text-decoration:none;color:var(--ink);
+        font-weight:700;font-size:15px;border-bottom:3px solid transparent;}
+  nav a.on{border-bottom-color:var(--ink);background:#fff;}
+  main{padding:40px 0 70px;}
+  h2{font-size:19px;color:var(--ink);margin:0 0 6px;font-weight:800;letter-spacing:-.3px;}
+  .lede{color:var(--muted);font-size:14px;margin:0 0 18px;}
+  table.board{width:100%;border-collapse:collapse;font-size:15px;}
+  table.board thead th{background:var(--ink);color:#fff;font-weight:700;font-size:14px;
+        padding:12px 14px;text-align:left;white-space:nowrap;}
+  table.board td{border-bottom:1px solid var(--line);padding:15px 14px;vertical-align:middle;}
+  table.board tr:hover td{background:var(--soft);}
+  td.no{width:52px;color:var(--muted);text-align:center;font-size:14px;}
+  td.ttl a{color:var(--ink);text-decoration:none;font-weight:700;}
+  td.ttl a:hover{text-decoration:underline;}
+  td.period{width:230px;color:#444;font-size:14px;white-space:nowrap;}
+  .tag{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:3px;
+       background:#e8edf9;color:var(--ink);font-size:12px;font-weight:700;vertical-align:1px;}
+  .empty{padding:50px 14px;text-align:center;color:var(--muted);border-bottom:1px solid var(--line);}
+  .info{margin-top:46px;border-top:1px solid var(--line);padding-top:26px;}
+  dl{display:grid;grid-template-columns:130px 1fr;gap:0;margin:0;font-size:15px;}
+  dt{padding:10px 0;color:var(--muted);font-weight:700;border-bottom:1px solid #eef1f7;}
+  dd{padding:10px 0;margin:0;border-bottom:1px solid #eef1f7;}
+  footer{border-top:1px solid var(--line);background:var(--soft);padding:24px 0;
+         color:var(--muted);font-size:13px;}
+  @media (max-width:640px){
+    .head-in{padding:26px 0 18px;} h1{font-size:21px;}
+    nav a{padding:12px 15px;font-size:14px;}
+    td.period{width:auto;white-space:normal;}
+    table.board thead th:nth-child(3),table.board td:nth-child(3){display:none;}
+    dl{grid-template-columns:1fr;} dt{padding-bottom:0;border-bottom:none;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap head-in">
+    <h1>주식회사 거인의어깨</h1>
+    <div class="sub">GIANT'S SHOULDER CO., LTD.</div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <ul><li><a href="./" class="on">전자공고</a></li></ul>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <h2>전자공고</h2>
+    <p class="lede">본 회사의 공고는 정관 제4조에 따라 이 홈페이지에 게재합니다.</p>
+
+    <table class="board">
+      <thead>
+        <tr><th style="text-align:center">번호</th><th>제목</th><th>게재기간</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="no">1</td>
+          <td class="ttl">
+            <a href="./notice-2026-01.html">해산 및 채권신고 공고</a>
+            <span class="tag">게재중</span>
+          </td>
+          <td class="period">2026-○○-○○ ~ 2026-○○-○○</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info">
+      <h2 style="font-size:17px;margin-bottom:14px;">회사 정보</h2>
+      <dl>
+        <dt>상호</dt><dd>주식회사 거인의어깨</dd>
+        <dt>대표자</dt><dd>조형우</dd>
+        <dt>본점 소재지</dt><dd>경기도 안양시 동안구 시민대로327번길 11-41, 동안 청년오피스 3층 3427호(관양동, 안양창업지원센터)</dd>
+        <dt>법인등록번호</dt><dd>134111-0654041</dd>
+        <dt>공고방법</dt><dd>회사 인터넷 홈페이지(www.lmulm.com) 게재 — 정관 제4조</dd>
+      </dl>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 주식회사 거인의어깨</div>
+</footer>
+</body>
+</html>
